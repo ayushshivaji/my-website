@@ -1,0 +1,99 @@
+:root {
+  --vp-c-brand: #F5712C;
+  --vp-c-brand-light: #F7844E;
+  --vp-c-brand-lighter: #F9A47C;
+  --vp-c-brand-dark: #D35A23;
+  --vp-c-brand-darker: #B04B1E;
+  
+  --vp-c-sponsor: #fd1d7c;
+  
+  /* Typography */
+  --vp-font-family-base: 'Inter', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  
+  /* Layout */
+  --vp-sidebar-width: 272px;
+  
+  /* Code Blocks */
+  --vp-code-block-bg: rgba(125, 125, 125, 0.04);
+}
+
+/* Dark Mode Adjustments */
+.dark {
+  --vp-code-block-bg: rgba(0, 0, 0, 0.2);
+}
+
+/* Home Page Hero Styling */
+.VPHero .name,
+.VPHero .text {
+  color: var(--vp-c-brand);
+}
+
+.VPHero .tagline {
+  font-size: 18px;
+}
+
+/* Custom layout for feature sections similar to RSSHub */
+.vp-doc {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  :root {
+    --vp-sidebar-width: 260px;
+  }
+}
+
+/* Custom component styles */
+.custom-block {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.custom-block.tip {
+  border-color: var(--vp-c-brand);
+  background-color: rgba(245, 113, 44, 0.1);
+}
+
+.custom-block.warning {
+  border-color: #e7c000;
+  background-color: rgba(231, 192, 0, 0.1);
+}
+
+/* Button styles */
+.vp-button {
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.vp-button.brand {
+  background-color: var(--vp-c-brand);
+}
+
+.vp-button.brand:hover {
+  background-color: var(--vp-c-brand-dark);
+}
+
+/* Table styles similar to RSSHub docs */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vp-doc tr {
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 8px 16px;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+} 
