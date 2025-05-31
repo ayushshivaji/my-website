@@ -40,7 +40,7 @@ export default defineConfig({
     
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ayushshivaji' },
-      { icon: 'linkedin', link: 'https://linkedin.com/in/ayushshivaji' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/ayush-shivaji/' },
     ],
     
     footer: {

@@ -18,7 +18,7 @@ For faster responses, email is the best way to reach me.
 Connect with me on social platforms:
 
 - [GitHub](https://github.com/ayushshivaji)
-- [LinkedIn](https://linkedin.com/in/ayushshivaji)
+- [LinkedIn](https://www.linkedin.com/in/ayush-shivaji/)
 
 ## Contact Form
 
